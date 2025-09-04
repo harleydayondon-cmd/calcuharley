@@ -13,6 +13,9 @@
         android:theme="@style/Theme.Calcuharley"
         tools:targetApi="31">
         <activity
+            android:name=".har"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
